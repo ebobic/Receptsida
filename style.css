@@ -29,6 +29,7 @@ body {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* === Hero-bild === */
 .hero-wrapper {
   margin: 0 -64px;
 }
@@ -65,7 +66,6 @@ p, li {
   line-height: 28px;
   color: #000000;
 }
-
 
 /* === Intro-ruta === */
 .intro-box {
@@ -107,3 +107,54 @@ p, li {
   background-color: #D9D9D9;
 }
 
+/* === Responsiv mobilanpassning === */
+@media (max-width: 768px) {
+  body {
+    background-color: #ffffff;
+  }
+  
+  .container {
+    padding: 0 24px 40px;
+  }
+
+  .hero-wrapper {
+    margin: 0 -24px;
+  }
+
+  .hero-image {
+    height: 240px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 24px 0;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  p, li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .intro-box {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+  }
+
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-row img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
