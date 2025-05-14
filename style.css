@@ -84,3 +84,20 @@ p, li {
   margin: 0;
   text-align: left;
 }
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 24px;
+  justify-content: center;
+}
+
+.image-row img {
+  width: 564px;
+  height: 467px;
+  object-fit: cover;
+  border-radius: 0;
+  background-color: #D9D9D9;
+}
+
