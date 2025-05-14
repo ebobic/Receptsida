@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+/* === Basinställningar === */
 body {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ body {
   margin-right: auto;
 }
 
+/* === Yttre layout === */
 .page {
   display: flex;
   flex-direction: column;
@@ -40,6 +42,7 @@ body {
   margin: 0;
 }
 
+/* === Rubriker & text === */
 h1 {
   font-size: 40px;
   font-weight: 700;
@@ -63,6 +66,8 @@ p, li {
   color: #000000;
 }
 
+
+/* === Intro-ruta === */
 .intro-box {
   display: flex;
   flex-direction: row;
@@ -85,6 +90,7 @@ p, li {
   text-align: left;
 }
 
+/* === Serveringsbilder === */
 .image-row {
   display: flex;
   flex-wrap: wrap;
