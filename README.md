@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f921befc-d9d2-4454-8432-dfd723b8d414) Receptsida –  Smakrika Cevapcici
+Receptsida –  Smakrika Cevapcici
 
 Responsiv receptsida byggd med HTML & CSS. Designen är baserad på Figma-layouten som vi fått i uppgift att efterlikna och innehåller rubriker, ingredienser, instruktioner och serveringsbilder.
 
